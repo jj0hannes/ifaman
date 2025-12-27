@@ -7,49 +7,49 @@
             "id": "16L",
             "lat": 35.56285278,
             "lon": 139.78870556,
-            "elev": 19.2
+            "alt": 19.2
         },
         {
             "id": "34R",
             "lat": 35.54250556,
             "lon": 139.80315000,
-            "elev": 21.0
+            "alt": 21.0
         },
         {
             "id": "16R",
             "lat": 35.55624167,
             "lon": 139.77171944,
-            "elev": 16.4
+            "alt": 16.4
         },
         {
             "id": "34L",
             "lat": 35.53660000,
             "lon": 139.78566944,
-            "elev": 18.4
+            "alt": 18.4
         },
         {
             "id": "04",
             "lat": 35.54901944,
             "lon": 139.76127778,
-            "elev": 19.3
+            "alt": 19.3
         },
         {
             "id": "22",
             "lat": 35.56746667,
             "lon": 139.77711389,
-            "elev": 35.0
+            "alt": 35.0
         },
         {
             "id": "05",
             "lat": 35.52400278,
             "lon": 139.80346389,
-            "elev": 45.5
+            "alt": 45.5
         },
         {
             "id": "23",
             "lat": 35.54059722,
             "lon": 139.82211389,
-            "elev": 54.7
+            "alt": 54.7
         }
     ],
     "waypoints": [
@@ -570,9 +570,9 @@
                     "id": "CIVIC",
                     "crs": 346,
                     "dist": 8.8,
-                    "alt_ft": 7000,
+                    "alt": 7000,
                     "alt_type": "AT",
-                    "speed_kt": 210
+                    "speed": 210
                 },
                 {
                     "id": "TT462",
@@ -593,9 +593,9 @@
                     "id": "EPSON",
                     "crs": 317,
                     "dist": 6.9,
-                    "alt_ft": 7000,
+                    "alt": 7000,
                     "alt_type": "AT",
-                    "speed_kt": 210
+                    "speed": 210
                 },
                 {
                     "id": "CREAM",
@@ -614,9 +614,9 @@
                     "id": "ANZAC",
                     "crs": 69,
                     "dist": 15.9,
-                    "alt_ft": 13000,
+                    "alt": 13000,
                     "alt_type": "AT",
-                    "speed_kt": 230
+                    "speed": 230
                 },
                 {
                     "id": "TT450",
@@ -642,15 +642,15 @@
                     "id": "WANDA",
                     "crs": 44,
                     "dist": 9.0,
-                    "alt_ft": 13000,
+                    "alt": 13000,
                     "alt_type": "AT",
-                    "speed_kt": 230
+                    "speed": 230
                 },
                 {
                     "id": "WEDGE",
                     "crs": 300,
                     "dist": 18.7,
-                    "alt_ft": 8000,
+                    "alt": 8000,
                     "alt_type": "AT"
                 },
                 {
@@ -670,9 +670,9 @@
                     "id": "ANZAC",
                     "crs": 69,
                     "dist": 15.9,
-                    "alt_ft": 13000,
+                    "alt": 13000,
                     "alt_type": "AT",
-                    "speed_kt": 230
+                    "speed": 230
                 },
                 {
                     "id": "TT450",
@@ -698,28 +698,128 @@
                     "id": "WANDA",
                     "crs": 44,
                     "dist": 9.0,
-                    "alt_ft": 13000,
+                    "alt": 13000,
                     "alt_type": "AT",
-                    "speed_kt": 230
+                    "speed": 230
                 },
                 {
                     "id": "WEDGE",
                     "crs": 300,
                     "dist": 18.7,
-                    "alt_ft": 8000,
+                    "alt": 8000,
                     "alt_type": "AT"
                 },
                 {
                     "id": "UMUKI",
                     "crs": 300,
                     "dist": 8.8,
-                    "alt_ft": 6000,
+                    "alt": 6000,
                     "alt_type": "AOB"
                 },
                 {
                     "id": "KAIHO",
                     "crs": 353,
                     "dist": 6.9
+                }
+            ]
+        }
+    ],
+    "iaps": [
+        {
+            "id": "ILS_Z_RWY34R",
+            "rwy": "34R",
+            "transitions": {
+                "CREAM": [
+                    {
+                        "id": "CREAM",
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CLOAK",
+                        "crs": 248
+                    },
+                    {
+                        "id": "CAMEL",
+                        "crs": 308,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CACAO",
+                        "crs": 337,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "ITC_D0.4"
+                    },
+                    {
+                        "id": "RW34R"
+                    }
+                ],
+                "ARLON": [
+                    {
+                        "id": "ARLON",
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CAMEL",
+                        "crs": 300,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CACAO",
+                        "crs": 337,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "ITC_D0.4"
+                    },
+                    {
+                        "id": "RW34R"
+                    }
+                ],
+                "SAPTI": [
+                    {
+                        "id": "SAPTI",
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CLOAK"
+                    },
+                    {
+                        "id": "CAMEL",
+                        "crs": 308,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "CACAO",
+                        "crs": 337,
+                        "alt": 4000
+                    },
+                    {
+                        "id": "ITC_D0.4"
+                    },
+                    {
+                        "id": "RW34R"
+                    }
+                ]
+            },
+            "ma": [
+                {
+                    "id": "RW34R",
+                    "crs": 337
+                },
+                {
+                    "id": "HDG337",
+                    "alt": 800
+                },
+                {
+                    "id": "TTE_R015",
+                    "alt": 4000
+                },
+                {
+                    "id": "KASGA",
+                    "alt": 4000,
+                    "speed_kt": 210
                 }
             ]
         }
