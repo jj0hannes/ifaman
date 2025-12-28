@@ -7,7 +7,9 @@ authors = [
     { name = "Julius", email = "julius.platzer@icloud.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "requests>=2.32.5",
+]
 
 [project.scripts]
 ifaman = "ifaman:main"
