@@ -577,17 +577,20 @@
                 {
                     "id": "TT462",
                     "crs": 346,
-                    "dist": 6.4
+                    "dist": 6.4,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "TT463",
                     "crs": 6,
-                    "dist": 6.9
+                    "dist": 6.9,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "TT464",
                     "crs": 341,
-                    "dist": 5.4
+                    "dist": 5.4,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "EPSON",
@@ -595,7 +598,8 @@
                     "dist": 6.9,
                     "alt": 7000,
                     "alt_type": "AT",
-                    "speed": 210
+                    "speed": 210,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "CREAM",
@@ -677,22 +681,26 @@
                 {
                     "id": "TT450",
                     "crs": 69,
-                    "dist": 5.0
+                    "dist": 5.0,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "TT451",
                     "crs": 115,
-                    "dist": 9.0
+                    "dist": 9.0,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "TT452",
                     "crs": 90,
-                    "dist": 7.0
+                    "dist": 7.0,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "TT453",
                     "crs": 69,
-                    "dist": 7.0
+                    "dist": 7.0,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "WANDA",
@@ -700,7 +708,8 @@
                     "dist": 9.0,
                     "alt": 13000,
                     "alt_type": "AT",
-                    "speed": 230
+                    "speed": 230,
+                    "is_seq_leg": true
                 },
                 {
                     "id": "WEDGE",
@@ -722,12 +731,79 @@
                     "dist": 6.9
                 }
             ]
+        },
+        {
+            "id": "AROS2C",
+            "legs": [
+                {
+                    "id": "AROSA"
+                },
+                {
+                    "id": "AVEEY",
+                    "crs": 278,
+                    "dist": 16.4,
+                    "alt": 11000,
+                    "alt_type": "AT",
+                    "speed": 230
+                },
+                {
+                    "id": "TT460",
+                    "crs": 352,
+                    "dist": 7.2
+                },
+                {
+                    "id": "TT461",
+                    "crs": 44,
+                    "dist": 14.4
+                },
+                {
+                    "id": "CIVIC",
+                    "crs": 346,
+                    "dist": 8.8,
+                    "alt": 7000,
+                    "alt_type": "AT",
+                    "speed": 210
+                },
+                {
+                    "id": "TT462",
+                    "crs": 346,
+                    "dist": 6.4,
+                    "is_seq_leg": true
+                },
+                {
+                    "id": "TT463",
+                    "crs": 6,
+                    "dist": 6.9,
+                    "is_seq_leg": true
+                },
+                {
+                    "id": "TT464",
+                    "crs": 341,
+                    "dist": 5.4,
+                    "is_seq_leg": true
+                },
+                {
+                    "id": "EPSON",
+                    "crs": 317,
+                    "dist": 6.9,
+                    "alt": 7000,
+                    "alt_type": "AT",
+                    "speed": 210,
+                    "is_seq_leg": true
+                },
+                {
+                    "id": "CREAM",
+                    "crs": 211,
+                    "dist": 14.1
+                }
+            ]
         }
     ],
     "iaps": [
         {
             "id": "ILS_Z_RWY34R",
             "rwy": "34R",
+            "gp": 3.0,
             "transitions": {
                 "CREAM": [
                     {
@@ -749,9 +825,6 @@
                         "alt": 4000
                     },
                     {
-                        "id": "ITC_D0.4"
-                    },
-                    {
                         "id": "RW34R"
                     }
                 ],
@@ -769,9 +842,6 @@
                         "id": "CACAO",
                         "crs": 337,
                         "alt": 4000
-                    },
-                    {
-                        "id": "ITC_D0.4"
                     },
                     {
                         "id": "RW34R"
@@ -796,32 +866,10 @@
                         "alt": 4000
                     },
                     {
-                        "id": "ITC_D0.4"
-                    },
-                    {
                         "id": "RW34R"
                     }
                 ]
-            },
-            "ma": [
-                {
-                    "id": "RW34R",
-                    "crs": 337
-                },
-                {
-                    "id": "HDG337",
-                    "alt": 800
-                },
-                {
-                    "id": "TTE_R015",
-                    "alt": 4000
-                },
-                {
-                    "id": "KASGA",
-                    "alt": 4000,
-                    "speed_kt": 210
-                }
-            ]
+            }
         }
     ]
 }
