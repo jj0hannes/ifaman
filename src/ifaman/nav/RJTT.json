@@ -89,6 +89,21 @@
             "lon": 140.36611111
         },
         {
+            "id": "AVION",
+            "lat_deg": 35.41033333,
+            "lon_deg": 139.85152778
+        },
+        {
+            "id": "ALLIE",
+            "lat_deg": 35.44375000,
+            "lon_deg": 139.85147222
+        },
+        {
+            "id": "AZURE",
+            "lat_deg": 35.47263333,
+            "lon_deg": 139.83102222
+        },
+        {
             "id": "BACON",
             "lat": 35.53194444,
             "lon": 140.20419444
@@ -733,10 +748,11 @@
             ]
         },
         {
-            "id": "AROS2C",
+            "id": "AROS1A",
             "legs": [
                 {
-                    "id": "AROSA"
+                    "id": "AROSA",
+                    "stack": true
                 },
                 {
                     "id": "AVEEY",
@@ -747,9 +763,64 @@
                     "speed": 230
                 },
                 {
+                    "id": "TT457",
+                    "crs": 325,
+                    "dist": 7.2
+                },
+                {
+                    "id": "TT458",
+                    "crs": 286,
+                    "dist": 7.4
+                },
+                {
+                    "id": "TT459",
+                    "crs": 270,
+                    "dist": 8.2
+                },
+                {
+                    "id": "WALTZ",
+                    "crs": 295,
+                    "dist": 10.4,
+                    "alt": 11000,
+                    "alt_type": "AT",
+                    "speed": 230
+                },
+                {
+                    "id": "WEDGE",
+                    "crs": 39,
+                    "dist": 21.8,
+                    "alt": 8000,
+                    "alt_type": "AT",
+                    "is_seq_leg": true
+                },
+                {
+                    "id": "ARLON",
+                    "crs": 9,
+                    "dist": 6.4
+                }
+            ]
+        },
+        {
+            "id": "AROS2C",
+            "legs": [
+                {
+                    "id": "AROSA",
+                    "stack": true
+                },
+                {
+                    "id": "AVEEY",
+                    "crs": 278,
+                    "dist": 16.4,
+                    "alt": 11000,
+                    "alt_type": "AT",
+                    "speed": 230,
+                    "stack": true
+                },
+                {
                     "id": "TT460",
                     "crs": 352,
-                    "dist": 7.2
+                    "dist": 7.2,
+                    "stack": true
                 },
                 {
                     "id": "TT461",
@@ -867,6 +938,36 @@
                     },
                     {
                         "id": "RW34R"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ILS_X_RWY34L",
+            "rwy": "34L",
+            "gp": 3.0,
+            "transitions": {
+                "KAIHO": [
+                    {
+                        "id": "KAIHO",
+                        "alt": 4000
+                    },
+                    {
+                        "id": "AVION",
+                        "crs": 40,
+                        "alt": 3000
+                    },
+                    {
+                        "id": "ALLIE",
+                        "crs": 8,
+                        "alt": 3000
+                    },
+                    {
+                        "id": "AZURE",
+                        "crs": 337
+                    },
+                    {
+                        "id": "RW34L"
                     }
                 ]
             }
