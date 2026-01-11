@@ -943,7 +943,7 @@
             }
         },
         {
-            "id": "ILS_X_RWY34L",
+            "id": "ILS_Y_RWY34L",
             "rwy": "34L",
             "gp": 3.0,
             "transitions": {
@@ -965,6 +965,32 @@
                     {
                         "id": "AZURE",
                         "crs": 337
+                    },
+                    {
+                        "id": "RW34L"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ILS_Z_RWY34L",
+            "rwy": "34L",
+            "gp": 3.0,
+            "transitions": {
+                "CREAM": [
+                    {
+                        "id": "CREAM",
+                        "alt": 5000
+                    },
+                    {
+                        "id": "ARLON",
+                        "crs": 257,
+                        "alt": 5000
+                    },
+                    {
+                        "id": "APOLO",
+                        "crs": 337,
+                        "alt": 5000
                     },
                     {
                         "id": "RW34L"
